@@ -24,3 +24,6 @@
     padding-left:1rem;
     padding-right:1rem;
 }
+.ant-menu-horizontal > .ant-menu-item > a{
+    display: inline;
+}

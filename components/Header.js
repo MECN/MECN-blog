@@ -19,15 +19,15 @@ const Header=()=>(
             <Menu mode="horizontal">
             <Menu.Item key="home">
                     <Icon type="home" />
-                    首页
+                    <a href="/">首页</a>
                 </Menu.Item>
                 <Menu.Item key="video">
                     <Icon type="youtube" />
-                    视频
+                    <a href="/list">视频</a>
                 </Menu.Item>
                 <Menu.Item key="life">
                     <Icon type="smile" />
-                    生活
+                    <a href="/life">生活</a>
                 </Menu.Item>
             </Menu>
         </Col>
